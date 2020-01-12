@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [],
   "author": "",
