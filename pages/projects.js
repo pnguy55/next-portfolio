@@ -64,6 +64,7 @@ export default () => (
                 color: #f0edef;
                 padding: 1rem;
                 font-weight: 800;
+                text-align: center;
             }
             .myvideotagger > h4 > a {
                 text-decoration: none;
@@ -135,6 +136,7 @@ export default () => (
                 color: #000000;
                 padding: 1rem;
                 font-weight: 800;
+                text-align: center;
             }
             .reactcalc > h4 > a {
                 text-decoration: none;
