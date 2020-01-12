@@ -48,6 +48,12 @@ export default () => (
 
         <style jsx>
         {`  
+            h3 {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                width: 100%;
+            }
             .myvideotagger {
                 background: var(--light);
                 padding: 5rem 0rem;
