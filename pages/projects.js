@@ -61,6 +61,8 @@ export default () => (
             }
             .myvideotagger > h2{
                 background: #6b0b0b;
+                display: flex;
+                justify-content: center;
                 color: #f0edef;
                 padding: 1rem;
                 font-weight: 800;
@@ -97,6 +99,8 @@ export default () => (
             }
             .weatherapp > h2 {
                 background: #dbdce1;
+                display: flex;
+                justify-content: center;
                 color: #161e31;
                 padding: 1rem;
                 font-weight: 800;
@@ -133,6 +137,9 @@ export default () => (
             }
             .reactcalc > h2 {
                 background: #db890f;
+                display: flex;
+                display: flex;
+                justify-content: center;
                 color: #000000;
                 padding: 1rem;
                 font-weight: 800;
