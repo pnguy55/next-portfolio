@@ -26,7 +26,7 @@ export default class MyDocument extends Document {
                         --light: #545D8C;
                         --dark-text: #010440;
                         --light-text: #545D8C;
-                        --body-text: #fffff;
+                        --body-text: #010440;
                     }
                     .full-width {
                         width: 100%;

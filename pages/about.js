@@ -25,7 +25,7 @@ export default class About extends Component {
                 description='Phi Nguyen'
                 img={user.avatar_url}
                 img_max_height='auto'
-                img_max_width='40vw'
+                img_max_width='25vw'
             >
                 <p>{user.name}</p>
             </Layout>

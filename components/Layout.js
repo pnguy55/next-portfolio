@@ -22,8 +22,7 @@ export default ({ children, title, description, img, img_max_width, img_max_heig
                     <Link href='/'><a><img src='/static/phiheadround.png' height='72px' width='72px'></img></a></Link>
                 </div>
                 <div className='link-wrapper'>
-                    <Link href='/'><a className={active === 'home' ? 'active':'inactive'}>Home</a></Link>
-                    <Link href='/about'><a className={active === 'about' ? 'active':'inactive'}>About</a></Link>
+                    <Link href='/'><a className={active === 'about' ? 'active':'inactive'}>About</a></Link>
                     <Link href='/projects'><a className={active === 'projects' ? 'active':'inactive'}>Projects</a></Link>
                 </div>
             </header>
@@ -31,7 +30,7 @@ export default ({ children, title, description, img, img_max_width, img_max_heig
         <div className='centered-column parallax'>
             <h1 id='title'>{title}</h1>
             <h5 id='description'>{description}</h5>
-            <Link href={active === 'error' ? '/' : active === 'home' ? '/' : `/${active}`}><a><img className={active==='about'? 'about-img':'parallax-img'} src={img} alt='react icon'  /></a></Link>
+            <Link href={active === 'error' ? '/' : active === 'about' ? '/' : `/${active}`}><a className='centered-column'><img className={'parallax-img'} src={img} alt='react icon'  /></a></Link>
             <img className='parallax-img2' src='/static/shelf.png'/>
         </div>
         
@@ -100,40 +99,33 @@ export default ({ children, title, description, img, img_max_width, img_max_heig
                 font-weight: bold;
             }
             footer {
-                padding: 1em;
+                padding: 1em 0em;
                 background: var(--main-background);
                 color: var(--dark-text);
                 width: 100%;
             }
             #title {
                 font-size: 4rem;
-                margin-bottom: 1rem;
+                margin-bottom: 0rem;
             }
             #description {
                 font-size: 1.5rem;
-                margin-top: 1rem;
+                margin: 1rem 1rem 0rem 1rem;
+                text-align: center;
             }
             .parallax-img {
                 max-height: ${img_max_height};
                 height: auto;
                 max-width: ${img_max_width};
-                margin-bottom: -4px;
-            }
-            .about-img {
-                max-height: ${img_max_height};
-                height: auto;
-                max-width: ${img_max_width};
-                margin-bottom: -4px;
-                border-radius: 100%;
-                -webkit-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.75);
-                -moz-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.75);
-                box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.75);
+                margin-top: 2rem;
             }
             .parallax-img2 {
                 max-height: ${img_max_height};
                 height: auto;
                 max-width: ${img_max_width};
+                margin-bottom: 1rem;
             }
+            
         `}
         </style>
         {/* for global style aka outside of this component */}
