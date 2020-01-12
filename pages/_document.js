@@ -17,32 +17,7 @@ export default class MyDocument extends Document {
                 </body>
                 <style global jsx>
                 {`
-                    :root{
-                        --antic: 'Antic Didone', cursive;
-                        --josefin: 'Josefin Sans', sans-serif;
-                        --oxygen: 'Oxygen', sans-serif;
-                        --main-background: #E0F2D8;
-                        --dark: #010440;
-                        --light: #545D8C;
-                        --dark-text: #010440;
-                        --light-text: #545D8C;
-                        --body-text: #010440;
-                    }
-                    .full-width {
-                        width: 100%;
-                    }
-                    body {
-                        font-family: var(--oxygen);
-                        color: var(--body-text);
-                    } 
-                    h1 {
-                        font-family: var(--antic);
-                        color: var(--light-text);
-                    }   
-                    h2, h3, h4, h5, h6 {
-                        font-family: var(--josefin);
-                        color: var(--light-text);
-                    }
+                    
                 `}
                 </style>
             </html>
