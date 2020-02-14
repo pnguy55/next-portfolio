@@ -51,7 +51,7 @@ export default class index extends Component {
                     .avatar {
                         max-height: auto;
                         height: auto;
-                        max-width: 10vw;
+                        max-width: 30vw;
                         margin: 2rem 0rem;
                         border-radius: 100%;
                         -webkit-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.75);
@@ -71,6 +71,9 @@ export default class index extends Component {
                         display: none;
                     }
                     @media only screen and (min-width: 468px) {
+                        .avatar {
+                            max-width: 10vw;
+                        }
                         .mobile {
                             display: none;
                         }
