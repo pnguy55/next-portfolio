@@ -51,7 +51,7 @@ export default class index extends Component {
                     .avatar {
                         max-height: auto;
                         height: auto;
-                        max-width: 30vw;
+                        max-width: 35vw;
                         margin: 2rem 0rem;
                         border-radius: 100%;
                         -webkit-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.75);
